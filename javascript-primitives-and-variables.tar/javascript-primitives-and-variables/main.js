@@ -1,0 +1,10 @@
+const fullName = 'Lambert Nguyen';
+const isCool = true;
+const totalPets = 1;
+console.log('fullName: ', fullName, typeof fullName);
+console.log('isCool: ', isCool, typeof isCool);
+console.log('totalPets: ', totalPets, typeof totalPets);
+const unknown = null;
+console.log('unknown: ', unknown, typeof unknown);
+const never = undefined;
+console.log('never: ', never, typeof never);
