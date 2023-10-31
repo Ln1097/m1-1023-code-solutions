@@ -23,7 +23,7 @@ const getFirstNameResult = getFirstName({ firstName: 'Mega', lastName: 'Man' });
 console.log(getFirstNameResult);
 
 function getLastElement(array) {
-  return array[getLastElement.length - 1];
+  return array[array.length - 1];
 }
 const getLastElementResult = getLastElement(['Earth', 'Wind', '&', 'Fire']);
 console.log(getLastElementResult);
