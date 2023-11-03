@@ -28,13 +28,13 @@ function isEvenNumber(number) {
 console.log('is Even Number:', isEvenNumber(2));
 
 function startsWithJ(string) {
-  if (string === 'J'[0]) {
+  if (string[0] === 'J') {
     return 'true';
   } else {
     return 'false';
   }
 }
-console.log('startsWithJ:', startsWithJ('j'));
+console.log('startsWithJ:', startsWithJ('J'));
 
 function isOldEnoughToDrink(person) {
   if (person >= 21) {
@@ -58,7 +58,7 @@ function isOldEnoughToDrinkAndDrive(person) {
   if (person >= 0) {
     return 'false';
   } else {
-    return 'true';
+    return 'false';
   }
 }
 console.log('isOldEnoughToDrinkAndDrive:', isOldEnoughToDrinkAndDrive(44));
@@ -104,6 +104,8 @@ function recommendMovie(genre) {
       return 'West Side Story';
     case 'sci-fi':
       return 'Star Wars';
+    default:
+      return 'Genre not recognized. Please pick between action, comedy, horror, drama, musical, or sci-fi';
   }
 }
-console.log('recommendMovie:', recommendMovie('action'));
+console.log('recommendMovie:', recommendMovie('actionzz'));
