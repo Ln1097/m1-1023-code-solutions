@@ -41,7 +41,7 @@ console.log(typeof repeatWord('cool', 10));
 console.log(repeatWord('cool', 10));
 
 function logEachCharacter(string) {
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < string.length; i++) {
     console.log(string[i]);
   }
 }
@@ -49,7 +49,7 @@ console.log(logEachCharacter('fun'));
 
 function doubleAll(numbers) {
   const doubled = [];
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     doubled.push(numbers[i] * 2);
   }
   return doubled;
