@@ -1,0 +1,23 @@
+th{
+  color:white;
+  background-color: black;
+}
+.team-1{
+  color:black;
+  background-color: rgb(217, 211, 211);
+}
+.team-2{
+  color:black;
+  background-color: white;
+}
+button{
+  font-size:24px;
+  color:black;
+  background-color: white;
+}
+button.big:hover{
+  background-color: black;
+  font-size:24px;
+  color:white;
+  cursor: pointer;
+}
