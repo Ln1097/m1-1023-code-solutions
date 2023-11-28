@@ -2,13 +2,9 @@ th{
   color:white;
   background-color: black;
 }
-.team-1{
+tr:nth-child(odd){
   color:black;
-  background-color: rgb(217, 211, 211);
-}
-.team-2{
-  color:black;
-  background-color: white;
+  background-color: rgb(223, 205, 205);
 }
 button{
   font-size:24px;
