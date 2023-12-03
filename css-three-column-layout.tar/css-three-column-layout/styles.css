@@ -1,0 +1,71 @@
+.container{
+  background-color: rgb(18,157,238);
+}
+.row{
+  display: flex;
+}
+.row .column-full h2{
+  color:white;
+  margin-left: 650px;
+  flex-basis: calc(100%);
+}
+.row .column-one-third h2{
+  color:white;
+  flex-basis:calc(100%/3);
+  margin-left: 350px;
+  margin-top: 150px;
+}
+.row .column-one-third p{
+  color:white;
+  flex-basis:calc(100%/3);
+  margin-left:100px;
+  margin-top:100px;
+}
+
+
+.row .column-one-third .image-L{
+  border-radius: 50%;
+  background-color: white;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.row .column-one-third .image-C{
+  border-radius: 50%;
+  background-color: white;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+.row .column-one-third .image-R{
+  border-radius: 50%;
+  background-color: white;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 1300px;
+  align-items: center;
+  justify-content: center;
+}
+.row .column-one-third .image-L img{
+  margin-left: 40px;
+  width: 5%;
+  position: fixed;
+}
+.row .column-one-third .image-C img{
+  margin-left: 5px;
+  width:5%;
+  position: fixed;
+}
+.row .column-one-third .image-R img{
+  position: fixed;
+}
