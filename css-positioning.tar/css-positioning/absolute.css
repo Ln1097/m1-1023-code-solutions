@@ -39,5 +39,6 @@
   background: linear-gradient(transparent, rgba(43, 70, 109, 0.42));
 
   /* your code here */
-  background: linear-gradient(transparent, hsla(216, 24%, 40%, 0.42));
+  position: absolute;
+  top:0;right:0;bottom: 0; left: 0;
 }
