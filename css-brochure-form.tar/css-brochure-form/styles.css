@@ -1,3 +1,7 @@
+.container{
+  width:800px;
+  margin:0 auto;
+}
 h1{
   color:rgb(239, 75, 15);
   text-align: center;
