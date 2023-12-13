@@ -11,11 +11,11 @@ Events are signals inside brower window, that notifies of changes in browser or 
 - Are all possible parameters required to use a JavaScript method or function?
 No
 - What method of element objects lets you set up a function to be called when a specific type of event occurs?
-addEventListender()
+addEventListener()
 - What is a callback function?
 A function passed into another function as an argument, which is invoked inside of outer function to comeplete an action
 - What object is passed into an event listener callback when the event fires?
-Te event object
+The event object
 - What is the `event.target`? If you weren't sure, how would you check? Where could you get more information about it?
 property of an event object that refers to the element that triggered the event.
 - What is the difference between these two snippets of code?
