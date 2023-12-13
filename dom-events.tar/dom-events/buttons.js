@@ -15,7 +15,7 @@ function handleMouseOver(event){
 }
  const element2 =document.querySelector('.hover-button');
   if (!$hoverButton) throw new Error('The $hoverButton query failed');
-  element.addEventListener('mouseover',event)
+  element2.addEventListener('mouseover',event)
 
 function handleDoubleClick(event){
   console.log('button doubled-clicked');
@@ -24,4 +24,4 @@ function handleDoubleClick(event){
 }
  const element3=document.querySelector(.'double-click-button');
   if (!$dblClickButton) throw new Error('The $dblClickButton query failed');
-  element.addEventListener('dblclick', handleDoubleClick);
+  element3.addEventListener('dblclick', handleDoubleClick);
