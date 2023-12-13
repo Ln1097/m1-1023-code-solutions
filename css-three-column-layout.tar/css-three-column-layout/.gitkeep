@@ -1,0 +1,106 @@
+<div class="container">
+    <div class="row">
+      <div class="column-full">
+        <h2>Designed for life. Optimized for SaMD and Digital Health.</h2>
+      </div>
+      </div>
+      <div class="row">
+        <div class="column-one-third">
+          <div class="image">
+            <img src="./images/cloud-computing.png">
+            <div class="column-one-third">
+            <div class="image">
+              <img src="./images/discussion.png">
+            </div>
+          <div class="column-one-third">
+            <div class="image">
+              <img src="./images/merge.png">
+         </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+     <div class="row">
+        <div class="column-one-third">
+          <h2>Streamlined QMS</h2>
+        </div>
+        <div class="column-one-third">
+          <h2>Integrated with existing tools</h2>
+        </div>
+        <div class="column-one-third">
+          <h2>In-depth Onboarding</h2>
+        </div>
+    </div>
+    <div class="row">
+      <div class="column-one-third">
+        <p>A QMS that includes molecules for all stages of the product lifecycle from Design Control to CAPA</p>
+      </div>
+      <div class="column-one-third">
+        <p>Enzyme QMS integrates with your existing tools, such as JIRA, GitHub and Jenkins with Enzyme</p>
+      </div>
+      <div class="column-one-third">
+        <p>We train your entire team and provide you with support when as it's needed</p>
+      </div>
+    </div>
+  </div>
+
+  css
+  .container{
+  background-color: rgb(18,157,238);
+}
+.row{
+  display: flex;
+}
+.row .column-full h2{
+  color:white;
+  margin-left: 650px;
+  flex-basis: calc(100%);
+}
+.row .column-one-third h2{
+  color:white;
+  flex-basis:calc(100%/3);
+  margin-left: 350px;
+  margin-top: 150px;
+}
+.row .column-one-third p{
+  color:white;
+  flex-basis:calc(100%/3);
+  margin-left:100px;
+  margin-top:100px;
+}
+
+
+.row .column-one-third .image-l{
+  border-radius: 50%;
+  background-color: red;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.row .column-one-third .image-c{
+  border-radius: 50%;
+  background-color: white;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+.row .column-one-third .image-r{
+  border-radius: 50%;
+  background-color: green;
+  flex-basis: calc(100%/3);
+  display:flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 1300px;
+  align-items: center;
+  justify-content: center;
+}

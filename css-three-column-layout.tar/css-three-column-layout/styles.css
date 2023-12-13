@@ -1,0 +1,46 @@
+.container{
+  background-color: rgb(47, 146, 244);
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  text-align: center;
+}
+
+h1{
+  color:white;
+}
+
+.column-full{
+  flex-basis: calc(100%);
+}
+
+.column-third {
+  flex-basis: calc(100%/3);
+  display: flex;
+  justify-content: center;
+}
+
+
+.column-third > .image {
+  border-radius: 50%;
+  background-color: white;
+  height: 240px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 50%;
+}
+
+h2{
+color:white;
+}
+
+p{
+  color:white;
+}
