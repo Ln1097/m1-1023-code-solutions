@@ -1,0 +1,14 @@
+- What is the `className` property of element objects?
+It gets and sets the value of the class attribute of a specified element.
+- How do you update the CSS class attribute of an element using JavaScript?
+Use className
+- What is the `textContent` property of element objects?
+returns or sets the text from the selected element
+- How do you update the text within an element using JavaScript?
+use addEventListener()
+- Is the `event` parameter of an event listener callback always useful?
+No
+- Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
+more complicated
+- Why is storing information about a program in variables better than only storing it in the DOM?
+So you can easily access info
