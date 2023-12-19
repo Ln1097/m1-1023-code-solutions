@@ -1,0 +1,38 @@
+.container{
+  background-color: white;
+   font-family: Barlow, sans-serif;
+}
+
+.row{
+  display: flex;
+}
+
+.column-full{
+  flex-basis: calc(100%);
+}
+
+.column-quarter{
+  flex-basis:calc(100%/4);
+}
+
+h1{
+  text-align: center;
+}
+
+
+.screen, .icon, h3, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen > img{
+  height:300px;
+  width:200px;
+
+}
+
+.icon > img{
+  height: 100px;
+  width:100px;
+}
