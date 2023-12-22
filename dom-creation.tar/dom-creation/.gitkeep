@@ -1,0 +1,143 @@
+<div class="column-third">
+  <div class="pokemon-card">
+    <img src="images/pikachu.png">
+    <div class="pokemon-card-text">
+      <h2>Pikachu</h2>
+      <h3>#025</h3>
+      <p>
+        Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+      </p>
+    </div>
+  </div>
+</div>
+
+  const div=document.createElement('div');
+  div.className='column-third';
+
+  const div2=div.appendChild(document.createElement('div'));
+  div2.className='pokemon-card';
+  const img1=div2.appendChild(document.createElement("img"));
+  img1.setAttribute('src', 'images/bulbasaur.png');
+  const div3=div2.appendChild(document.createElement("div"))
+  div3.className="pokemon-card-text";
+  const head1=div3.appendChild(document.createElement("h2"))
+  head1.textContent="Bulbasaur";
+  const head2=div3.appendChild(document.createElement("h3"))
+  head2.textContent="#001"
+  const p1=div3.appendChild(document.createElement("p"))
+  p1.textContent ='There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.';
+
+
+  const divB2=div.appendChild(document.createElement('div'));
+  divB2.className='pokemon-card';
+  const imgB1=divB2.appendChild(document.createElement("img"));
+  imgB1.setAttribute('src', 'images/charmander.png');
+  const divB3=divB2.appendChild(document.createElement('div'))
+  divB3.className="pokemon-card-text";
+  const headB1=divB3.appendChild(document.createElement("h2"))
+  headB1.textContent = 'Charmander';
+  const headB2=divB3.appendChild(document.createElement("h3"))
+  headB2.textContent='#004'
+  const pB1=divB3.appendChild(document.createElement("p"))
+  pB1.textContent =
+    'It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.';
+
+
+  const divC2 = div.appendChild(document.createElement('div'));
+  divC2.className = 'pokemon-card';
+  const imgC1 = divC2.appendChild(document.createElement('img'));
+  imgC1.setAttribute('src', 'images/squirtle.png');
+  const divC3 = divC2.appendChild(document.createElement('div'));
+  divC3.className = 'pokemon-card-text';
+  const headC1 = divC3.appendChild(document.createElement('h2'));
+  headC1.textContent = 'Squirtle';
+  const headC2 = divC3.appendChild(document.createElement('h3'));
+  headC2.textContent = '#007';
+  const pC1 = divC3.appendChild(document.createElement('p'));
+  pC1.textContent =
+    'When it retracts its long neck into its shell, it squirts out water with vigorous force.';
+
+
+  const divD2 = div.appendChild(document.createElement('div'));
+  divD2.className = 'pokemon-card';
+  const imgD1 = divD2.appendChild(document.createElement('img'));
+  imgD1.setAttribute('src', 'images/ivysaur.png');
+  const divD3 = divD2.appendChild(document.createElement('div'));
+  divD3.className = 'pokemon-card-text';
+  const headD1 = divD3.appendChild(document.createElement('h2'));
+  headD1.textContent = 'Ivysaur';
+  const headD2 = divD3.appendChild(document.createElement('h3'));
+  headD2.textContent = '#002';
+  const pD1 = divD3.appendChild(document.createElement('p'));
+  pD1.textContent =
+    'When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.';
+
+  const divE2 = div.appendChild(document.createElement('div'));
+  divE2.className = 'pokemon-card';
+  const imgE1 = divE2.appendChild(document.createElement('img'));
+  imgE1.setAttribute('src', 'images/charmeleon.png');
+  const divE3 = divE2.appendChild(document.createElement('div'));
+  divE3.className = 'pokemon-card-text';
+  const headE1 = divE3.appendChild(document.createElement('h2'));
+  headE1.textContent = 'Charmeleon';
+  const headE2 = divE3.appendChild(document.createElement('h3'));
+  headE2.textContent = '#005';
+  const pE1 = divE3.appendChild(document.createElement('p'));
+  pE1.textContent =
+    'It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.';
+
+  const divF2 = div.appendChild(document.createElement('div'));
+  divF2.className = 'pokemon-card';
+  const imgF1 = divF2.appendChild(document.createElement('img'));
+  imgF1.setAttribute('src', 'images/wartortle.png');
+  const divF3 = divF2.appendChild(document.createElement('div'));
+  divF3.className = 'pokemon-card-text';
+  const headF1 = divF3.appendChild(document.createElement('h2'));
+  headF1.textContent = 'Wartortle';
+  const headF2 = divF3.appendChild(document.createElement('h3'));
+  headF2.textContent = '#008';
+  const pF1 = divF3.appendChild(document.createElement('p'));
+  pF1.textContent =
+    'It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.';
+
+ const divG2 = div.appendChild(document.createElement('div'));
+ divG2.className = 'pokemon-card';
+ const imgG1 = divG2.appendChild(document.createElement('img'));
+ imgG1.setAttribute('src', 'images/venusaur.png');
+ const divG3 = divG2.appendChild(document.createElement('div'));
+ divG3.className = 'pokemon-card-text';
+ const headG1 = divG3.appendChild(document.createElement('h2'));
+ headG1.textContent = 'Venusaur';
+ const headG2 = divG3.appendChild(document.createElement('h3'));
+ headG2.textContent = '#003';
+ const pG1 = divG3.appendChild(document.createElement('p'));
+ pG1.textContent =
+   'Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.';
+
+ const divH2 = div.appendChild(document.createElement('div'));
+ divH2.className = 'pokemon-card';
+ const imgH1 = divH2.appendChild(document.createElement('img'));
+ imgH1.setAttribute('src', 'images/charizard.png');
+ const divH3 = divH2.appendChild(document.createElement('div'));
+ divH3.className = 'pokemon-card-text';
+ const headH1 = divH3.appendChild(document.createElement('h2'));
+ headH1.textContent = 'Charizard';
+ const headH2 = divH3.appendChild(document.createElement('h3'));
+ headH2.textContent = '#006';
+ const pH1 = divH3.appendChild(document.createElement('p'));
+ pH1.textContent =
+   'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.';
+
+ const divI2 = div.appendChild(document.createElement('div'));
+ divI2.className = 'pokemon-card';
+ const imgI1 = divI2.appendChild(document.createElement('img'));
+ imgI1.setAttribute('src', 'images/blastoise.png');
+ const divI3 = divI2.appendChild(document.createElement('div'));
+ divI3.className = 'pokemon-card-text';
+ const headI1 = divI3.appendChild(document.createElement('h2'));
+ headI1.textContent = 'Blastoise';
+ const headI2 = divI3.appendChild(document.createElement('h3'));
+ headI2.textContent = '#009';
+ const pI1 = divI3.appendChild(document.createElement('p'));
+ pI1.textContent =
+   'It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.';
