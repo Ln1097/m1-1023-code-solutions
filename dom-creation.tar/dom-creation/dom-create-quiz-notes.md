@@ -15,7 +15,7 @@ two string values
 - What is the `textContent` property of an element object for?
 It is to add text to a document, such as for a paragraph or head
 - Name two ways to set the `class` attribute of a DOM element.
-element.classList.add() and element.className
+setAttribute and element.className
 - What are two advantages of defining a function to do create something (like the work of creating a DOM tree)?
 Reusability and functionality
 
