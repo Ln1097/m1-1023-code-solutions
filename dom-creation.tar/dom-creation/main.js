@@ -73,5 +73,5 @@ function renderPokemon(pokemon){
     head2.textContent = 'pokemon.number';
     const p1 = div3.appendChild(document.createElement('p'));
     p1.textContent =pokemon.description;
-
+    return console.log(div.className)
 }
