@@ -59,19 +59,42 @@ const pokedex = [
 
 
 function renderPokemon(pokemon){
-   const div = document.createElement('div');
-   div.className = 'column-third';
-    const div2 = div.appendChild(document.createElement('div'));
-    div2.className = 'pokemon-card';
-    const img1 = div2.appendChild(document.createElement('img'));
-    img1.setAttribute('src', pokemon.imageUrl);
-    const div3 = div2.appendChild(document.createElement('div'));
-    div3.className = 'pokemon-card-text';
-    const head1 = div3.appendChild(document.createElement('h2'));
-    head1.textContent = 'pokemon.name';
-    const head2 = div3.appendChild(document.createElement('h3'));
-    head2.textContent = 'pokemon.number';
-    const p1 = div3.appendChild(document.createElement('p'));
-    p1.textContent =pokemon.description;
-    return console.log(div.className)
+
+
+  const columnThird=document.createElement('div');
+  columnThird.setAttribute('class','column-third');
+
+  const pokemonCard=document.createElement('div');
+  pokemonCard.setAttribute('class','pokemon-card');
+  columnThird.appendChild(pokemonCard)
+
+  const image=document.createElement('img');
+  image.setAttribute('src',pokemon.imageUrl);
+  pokemonCard.appendChild(image);
+
+  const pokemonCardText=document.createElement('div');
+  pokemonCardText.setAttribute('class','pokemon-card-text');
+  pokemonCard.appendChild(pokemonCardText)
+
+  const name=document.createElement('h2');
+  name.textContent=pokemon.name;
+  pokemonCardText.appendChild(name);
+
+  const number=document.createElement('h3');
+  number.textContent='#'+pokemon.number
+  pokemonCardText.appendChild(number);
+
+  const description=document.createElement('p');
+  description.textContent=pokemon.description;
+  pokemonCardText.appendChild(description);
+
+console.log(columnThird);
+  return columnThird;
+
+}
+
+const row=document.querySelector('.row');
+for(let i=0;i<pokedex.length;i++){
+  const pokemon=renderPokemon(pokedex[i])
+  row.appendChild(pokemon)
 }
