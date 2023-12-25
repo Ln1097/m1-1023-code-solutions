@@ -11,7 +11,7 @@ Use element.appendChild
 - What do you pass as the arguments to the `element.setAttribute()` method?
 two string values
 - What steps do you need to take in order to insert a new element into the page?
-
+You have to create the element, set the attribute and append it to the parent
 - What is the `textContent` property of an element object for?
 It is to add text to a document, such as for a paragraph or head
 - Name two ways to set the `class` attribute of a DOM element.

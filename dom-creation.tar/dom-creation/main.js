@@ -61,6 +61,7 @@ const pokedex = [
 function renderPokemon(pokemon){
 
 
+
   const columnThird=document.createElement('div');
   columnThird.setAttribute('class','column-third');
 
@@ -88,12 +89,13 @@ function renderPokemon(pokemon){
   description.textContent=pokemon.description;
   pokemonCardText.appendChild(description);
 
-console.log(columnThird);
+
   return columnThird;
 
 }
 
 const row=document.querySelector('.row');
+
 for(let i=0;i<pokedex.length;i++){
   const pokemon=renderPokemon(pokedex[i])
   row.appendChild(pokemon)
