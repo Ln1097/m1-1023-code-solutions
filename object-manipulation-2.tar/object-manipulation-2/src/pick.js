@@ -1,10 +1,10 @@
 /* exported pick */
 function pick(source, keys) {
   const result = {};
-  for (keys in source) {
-    if (keys.includes(keys)) {
-      result[keys] = source[keys];
+  Object.keys(source).forEach(function (key) {
+    if (keys.indexOf(key) === 1) {
+      result[key] = source[key];
     }
-  }
+  });
   return result;
 }
