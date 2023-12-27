@@ -1,6 +1,10 @@
-function changeStyle(){
-  const element=document.getElementById("container");
-  const element2=document.getElementById("button");
-  element.style.backgroundColor="beige";
-  element2.style.backgroundColor="yellow";
-}
+
+   function mouseOver() {
+     document.getElementById('container').style.backgroundColor = 'black';
+     document.getElementById('circle').style.backgroundColor = 'gray';
+   }
+
+   function mouseOut() {
+     document.getElementById('container').style.backgroundColor = 'beige';
+     document.getElementById('circle').style.backgroundColor = 'yellow';
+   }
