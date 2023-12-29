@@ -1,50 +1,65 @@
 .container{
   background-color: white;
-  display: flex;
 }
-
 
 .row{
-  display: flex;
-
-}
-
-.wrap{
+  display:flex;
   flex-wrap: wrap;
 }
 
 .column-full{
   flex-basis: calc(100%);
+
 }
 
 .column-half{
-  flex-basis: calc(100%/2);
+  flex-basis:calc(100%/2);
 }
 
-.row .column-full header{
+header{
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: large;
 }
 
-.row .column-full p{
-  display: flex;
+.column-full p{
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 
-.row .wrap .column-half img,h3{
-  display: flex;
-  justify-content: center;
+.row .column-half img{
   align-items: center;
+  justify-content: center;
+  margin-bottom:-100px;
+}
+
+.row .column-half h3{
+  align-items: center;
+  justify-content: center;
+  margin-left:150px;
+}
+
+.row .column-half p{
+  align-items: center;
+  justify-content: center;
+  margin-left:150px;
+}
+
+.column-full .footer button{
+  border-color: red;
+  background-color: white;
+  color:red;
+  text-align: center;
+}
+
+.column-full .footer{
+  display:flex;
+  width:150px;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-basis: calc(100%/2);
-}
-
-.row .wrap .column-half p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
