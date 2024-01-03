@@ -1,0 +1,27 @@
+body{
+  margin:0;
+}
+
+.ceiling{
+   background-color: black;
+  width:1000px;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ceiling.is-on{
+  background-color: beige;
+}
+
+.lightbulb{
+  border-radius: 50%;
+  background-color: gray;
+  height: 200px;
+  width:200px;
+}
+
+.lightbulb.is-on{
+  background-color: yellow;
+}
