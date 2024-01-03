@@ -9,4 +9,3 @@ open.addEventListener('click',()=>{
 close.addEventListener('click', () => {
   modalContainer.classList.remove('show');
 });
-console.log(open)
