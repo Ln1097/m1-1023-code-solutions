@@ -5,6 +5,7 @@
 
 .row{
   display: flex;
+  flex-wrap: wrap;
 }
 
 header{
@@ -18,27 +19,27 @@ header{
 .column-fifth{
   flex-basis: calc(100%/5);
   display: flex;
+  flex-wrap: wrap;
 }
 
-img{
+.row .column-fifth img{
   height: 200px;
   width: 100px;
-  margin:70px;
-  border:20px;
+   display: flex;
+  flex-wrap: wrap;
 }
 
-h3{
+.row .column-fifth h3{
   display: flex;
   justify-content: center;
   align-items: center;
   position:fixed;
   bottom:20px;
-  margin-left: 60px;
   font-size:large;
-  margin-bottom:200px;
+  flex-wrap: wrap;
 }
 
-p{
+.row .column-fifth p{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +48,7 @@ p{
   margin-left: 60px;
   font-size: larger;
   margin-bottom: 150px;
+  flex-wrap: wrap;
 }
 
 .size{
