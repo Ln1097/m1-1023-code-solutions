@@ -1,6 +1,7 @@
 .container{
   background-color: white;
   height:200px;
+  display: block;
 }
 
 .row{
@@ -14,12 +15,15 @@ header{
   justify-content: center;
   font-weight: bolder;
   font-size: large;
+  flex-wrap: wrap;
 }
 
 .column-fifth{
   flex-basis: calc(100%/5);
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .row .column-fifth img{
@@ -27,6 +31,9 @@ header{
   width: 100px;
    display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
 }
 
 .row .column-fifth h3{
@@ -37,6 +44,7 @@ header{
   bottom:20px;
   font-size:large;
   flex-wrap: wrap;
+  vertical-align: top;
 }
 
 .row .column-fifth p{
@@ -45,10 +53,9 @@ header{
   align-items: center;
   position: fixed;
   bottom:-10px;
-  margin-left: 60px;
   font-size: larger;
-  margin-bottom: 150px;
   flex-wrap: wrap;
+  vertical-align: top;
 }
 
 .size{
