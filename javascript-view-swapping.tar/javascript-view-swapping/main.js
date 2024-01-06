@@ -13,14 +13,14 @@ function handleViewSwap(event){
       tabList[tabIndex].className='tab';
     }
   }
-}
+
 
 const viewName=event.target.getAttribute('data-view');
-
 for(let viewIndex=0; viewIndex<viewList.length; viewIndex++){
-  if(viewList[viewIndex].getAttribute('data view')!==viewName){
+  if(viewList[viewIndex].getAttribute('data-view')!==viewName){
     viewList[viewIndex].className='view hidden';
   }else{
     viewList[viewIndex].className='view';
   }
+}
 }
