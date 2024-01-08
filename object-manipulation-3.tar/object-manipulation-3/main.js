@@ -64,25 +64,39 @@ const cards = [
 ];
 const shuffledArray = cards.sort((a, b) => 0.5 - Math.random());
 console.log(shuffledArray)
-
-
 function dealCard() {
   return cards.pop();
 }
 
-const player1 = players[0];
-const player2 = players[1];
-const player3=players[2];
-const player4=players[3];
+const player1 = [players[0]];
+const player2 = [players[1]];
+const player3 = [players[2]];
+const player4 = [players[3]];
 
-for (let i = 0; i < 8; i++) {
-  Object.entries(player1).push(dealCard());
-  Object.entries(player2).push(dealCard());
-  Object.entries(player3).push(dealCard());
-  Object.entries(player4).push(dealCard())
+for (let i = 0; i < 2; i++) {
+  player1.push(dealCard());
+  player2.push(dealCard());
+  player3.push(dealCard());
+  player4.push(dealCard());
 }
 
 console.log(player1);
 console.log(player2);
 console.log(player3);
 console.log(player4);
+
+const points={[
+  'A'=11
+  'Q'=10
+  'K'=10
+  'J'=10
+  '2'=2
+  '3'=3
+  '4'=4
+  '5'=5
+  '6'=6
+  '7'=7
+  '8'=8
+  '9'=9
+  '10'=10
+]}
