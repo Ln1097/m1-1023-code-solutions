@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, .sentenceInput{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  border-color: blue;
+}
+
+.correct{
+  color:green;
+}
+
+.incorrect{
+  color:red;
+}
