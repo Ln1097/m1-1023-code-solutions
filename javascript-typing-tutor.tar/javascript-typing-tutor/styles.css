@@ -1,18 +1,19 @@
-h1{
+body{
   display: flex;
-  text-align: center;
   justify-content: center;
-  padding-top: 150px;
+  align-items: center;
 }
 
-span{
-  margin: 5px;
+body, .sentenceInput{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  border-color: blue;
 }
 
- #cursor{
-  font-size: 30px;
-  float:left;
-  position: absolute;
-  top:170px;
-  left:490px;
+.correct{
+  color:green;
+}
+
+.incorrect{
+  color:red;
 }
