@@ -1,10 +1,10 @@
 /* exported isPalindromic */
-function isPalindromic(string){
-  const len = string.length;
-  for (let i = 0; i < len / 2; i++) {
-    if (string[i] !== string[len - 1 - i]) {
-      return false;
-    }
+function isPalindromic(string) {
+  const rep = /[^a-z]/;
+  const lowRegStr = string.toLowerCase().replace(rep, '');
+  const reverseStr = lowRegStr.split('').reverse().join('');
+  if(reverseStr === lowRegStr){
+    return true;
   }
-  return true;
+  else return false;
 }
